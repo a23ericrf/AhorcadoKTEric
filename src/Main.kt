@@ -17,7 +17,7 @@ fun main() {
 
     var reproductor: ReproductorMidi? = null
     try {
-        
+
         reproductor = ReproductorMidi("src/precio.mid")
         println("🎵 Música iniciada...")
     } catch (e: Exception) {
